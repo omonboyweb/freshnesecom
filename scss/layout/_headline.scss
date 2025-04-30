@@ -1,0 +1,21 @@
+.headline {
+    padding-top: 70px;
+    padding-bottom: 64px;
+}
+
+.headline__top {
+    @include flexCj;
+    width: 100%;
+    padding: 37px 0;
+}
+
+.headline__title {
+    font-weight: 600;
+    font-size: 18px;
+    color: var(--c1-a);
+}
+
+.headline__items {
+    display: flex;
+    gap: 32px;
+}

@@ -1,0 +1,53 @@
+.says__block {
+    @include flexD;
+}
+
+.says__top {
+    @include flexCj;
+    width: 100%;
+    padding: 37px 0;
+}
+
+.says__title {
+    font-weight: 600;
+    font-size: 18px;
+    color: var(--c1-a);
+}
+
+.says__items {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    gap: 32px;
+}
+
+.says__item {
+    @include flexD;
+    align-items: center;
+    border: 1px solid #f1f1f1;
+    border-radius: 12px;
+    padding: 24px 32px;
+    position: relative;
+}
+
+.says__item-description {
+    font-weight: 500;
+    font-size: 15px;
+    color: var(--c1-a);
+    margin-bottom: 24px;
+}
+
+.says__item-name {
+    font-weight: 600;
+    font-size: 12px;
+    color: var(--c1-c);
+    margin-bottom: 16px;
+}
+
+.says__item-img {
+    position: absolute;
+    width: 49px;
+    height: 49px;
+    border-radius: 50%;
+    left: calc(50% - 25px);
+    bottom: -25px;
+}

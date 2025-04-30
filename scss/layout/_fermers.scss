@@ -1,0 +1,22 @@
+.fermers__block {
+    display: flex;
+    gap: 32px;
+    padding-bottom: 64px;
+    padding-top: 64px;
+    width: 100%;
+}
+
+.fermers__card {
+    display: flex;
+    flex-grow: 2 !important;
+}
+
+.fermers__card-item {
+    @include card;
+}
+
+.card-img {
+    border-radius: 12px;
+    max-width: 237px;
+    height: 180px;
+}

@@ -1,0 +1,135 @@
+.blog__block {
+    @include flexD;
+    padding-bottom: 64px;
+}
+
+.blog__top {
+    @include flexCj;
+    width: 100%;
+    padding: 37px 0;
+}
+
+.blog__title {
+    font-weight: 600;
+    font-size: 18px;
+    color: var(--c1-a);
+}
+
+.blog__items {
+    display: flex;
+    gap: 32px;
+}
+
+.blog__item-content {
+    padding: 24px;
+    background-image: url(../../imgs/item__blog.png);
+    background-repeat: no-repeat;
+    background-position: 100%;
+    background-size: cover;
+    max-width: 469px;
+    border-radius: 12px;
+    flex-grow: 2;
+}
+
+.item__content-title {
+    padding: 0 8px;
+    font-weight: 600;
+    font-size: 12px;
+    color: var(--c2-a);
+    border-radius: 12px;
+    background: var(--c2-e);
+}
+
+.item__content-description {
+    font-weight: 600;
+    font-size: 22px;
+    color: var(--c1-j);
+    margin-bottom: 8px;
+    margin-top: 270px;
+    text-align: start;
+}
+
+.item__content-user {
+    display: flex;
+    gap: 16px;
+    align-items: center;
+}
+
+.item__content-img {
+    width: 32px;
+    height: 32px;
+    border-radius: 50%;
+}
+
+.item__content-name {
+    font-family: var(--second-family);
+    font-weight: 400;
+    font-size: 12px;
+    color: var(--c1-j);
+}
+
+.item__content-date {
+    font-family: var(--second-family);
+    font-weight: 400;
+    font-size: 12px;
+    color: var(--c1-j);
+}
+
+.blog__item-vegetables {
+    @include flexD;
+    max-width: 269px;
+}
+
+.veget__img {
+    margin-bottom: 24px;
+    max-width: 269px;
+    max-height: 180px;
+}
+
+.veget {
+    font-weight: 600;
+    font-size: 12px;
+    color: var(--c2-a);
+    padding: 0 8px;
+    background: var(--c2-e);
+    border-radius: 12px;
+    margin-bottom: 8px;
+}
+
+.veget-dec {
+    font-weight: 600;
+    font-size: 18px;
+    color: var(--c1-a);
+    text-align: start;
+    margin-bottom: 16px;
+}
+.vegetable-user {
+    display: flex;
+    gap: 16px;
+}
+
+.vg {
+    font-family: var(--second-family);
+    font-weight: 400;
+    font-size: 12px;
+    color: var(--c1-a);
+}
+
+.blog__food {
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+}
+
+.blog__food-item {
+    display: flex;
+    justify-content: space-between;
+}
+
+.food__content-title {
+    font-family: var(--font-family);
+    font-weight: 500;
+    font-size: 15px;
+    color: var(--c1-a);
+    margin-bottom: 16px;
+}

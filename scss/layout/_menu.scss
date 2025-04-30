@@ -1,0 +1,75 @@
+.menu__block {
+    display: flex;
+    padding-top: 64px;
+    padding-bottom: 66px;
+    gap: 32px;
+}
+
+.menu__categori:first-child {
+    flex-grow: 1;
+}
+
+.menu__categori {
+    flex-grow: 2;
+}
+
+.card-1 {
+    @include flexD;
+    justify-content: start;
+}
+
+.menu__categori-title {
+    font-weight: 600;
+    font-size: 18px;
+    color: var(--c1-a);
+    margin-bottom: 4px;
+}
+
+.menu__link {
+    margin-top: 12px;
+}
+
+.menu__action {
+    margin-top: 48px;
+    border-radius: 12px;
+    padding: 6px 16px;
+    background: var(--c1-f);
+    padding: 12px 16px;
+    display: block;
+    width: inherit;
+    font-weight: 700;
+}
+
+.card-2 {
+    @include flexD;
+    padding: 48px 33px;
+    background-color: rgb(244, 253, 227);
+    background-image: url(../../imgs/card-bg.svg);
+    background-repeat: no-repeat;
+    background-position: 100%;
+    background-size: cover;
+    border-radius: 12px;
+}
+
+.menu__card-title {
+    font-weight: 600;
+    font-size: 12px;
+    color: var(--c2-a);
+    margin-bottom: 8px;
+}
+
+.menu__card-subtitle {
+    font-weight: 600;
+    font-size: 22px;
+    color: var(--c1-a);
+    margin-bottom: 94px;
+}
+
+.menu__card-action {
+    font-weight: 700;
+    font-size: 15px;
+    color: var(--c1-a);
+    border: 2px solid var(--c2-c);
+    border-radius: 12px;
+    padding: 12px 16px;
+}

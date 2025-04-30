@@ -1,0 +1,60 @@
+@mixin flexC {
+    display: flex;
+    align-items: center;
+}
+
+@mixin flexCj {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+@mixin flexD {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+}
+
+@mixin card {
+    @include flexD;
+    padding: 16px;
+    border: 1px solid var(--c1-d);
+    border-radius: 12px;
+    padding: 16px;
+    background: var(--c1-j);
+    flex-grow: 1;
+}
+
+@mixin card-title {
+    border-radius: 12px;
+    max-width: 237px;
+    height: 180px;
+}
+
+@mixin card-description {
+    font-family: var(--second-family);
+    font-weight: 400;
+    font-size: 12px;
+    color: var(--c1-b);
+    margin-bottom: 16px;
+}
+
+@mixin card-action {
+    @include flexCj;
+    width: 100%;
+}
+
+@mixin cost {
+    font-weight: 600;
+    font-size: 18px;
+    color: var(--c1-a);
+}
+@mixin card-btn-buy {
+    font-weight: 700;
+    font-size: 15px;
+    color: var(--c1-j);
+    border: 2px solid var(--c2-b);
+    border-radius: 12px;
+    background: var(--c2-a);
+    padding: 7px 16px;
+}

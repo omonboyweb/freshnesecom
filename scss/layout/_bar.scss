@@ -1,0 +1,29 @@
+.bar {
+    background: var(--c1-h);
+    padding: 16px 0;
+}
+
+.bar__menu {
+    @include flexCj;
+}
+
+.bar__item {
+    font-weight: 500;
+    font-size: 15px;
+    color: var(--c1-a);
+    padding-right: 16px;
+    position: relative;
+}
+
+.bar__item::after {
+    position: absolute;
+    content: "";
+    background-image: url(../../imgs/bottom__arrow.svg);
+    background-repeat: no-repeat;
+    background-position: 100%;
+    background-size: cover;
+    width: 12px;
+    height: 12px;
+    right: 2px;
+    top: calc(50% - 6px);
+}

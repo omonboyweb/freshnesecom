@@ -1,586 +1,480 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="./css/main.css" />
-    <title>Freshnesecom</title>
-  </head>
-  <body>
-    <!-- header part started -->
-    <header id="home">
-      <div class="container">
-        <!-- header top s -->
-        <div class="header__top">
-          <div class="header__top-actions">
-            <a class="header__top-chat" href="#home">Chat with us</a>
-            <a class="header__top-tel acb" href="tel:+420 336 775 664"
-              >+420 336 775 664</a
-            >
-            <a class="header__top-gmail acb" href="mailto:info@freshnesecom.com"
-              >info@freshnesecom.com</a
-            >
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="./css/main.css" />
+  <title>Freshnesecom</title>
+</head>
+
+<body>
+  <!-- header part started -->
+  <header id="home">
+    <div class="container">
+      <!-- header top s -->
+      <div class="header__top">
+        <div class="header__top-actions">
+          <a class="header__top-chat" href="#home">Chat with us</a>
+          <a class="header__top-tel acb" href="tel:+420 336 775 664">+420 336 775 664</a>
+          <a class="header__top-gmail acb" href="mailto:info@freshnesecom.com">info@freshnesecom.com</a>
+        </div>
+        <div class="header__top-menu">
+          <a class="header__top-link" href="listview.html">Blog</a>
+          <a class="header__top-link" href="#home">About Us</a>
+          <a class="header__top-link" href="home">Careers</a>
+        </div>
+      </div>
+      <!-- header  nav  -->
+      <div class="header__nav">
+        <div class="header__logo">
+          <img src="./imgs/brand-logo.svg" alt="Freshnesecom brand logo" />
+        </div>
+        <div class="header__actions">
+          <div class="header__action-option">
+            <label for="category">All categories</label>
+            <select class="options" id="category">
+              <option value="bakery"></option>
+              <option value="fruit">Fruit and vegetables</option>
+              <option value="meet">Meat and fish</option>
+              <option value="drinks">Drinks</option>
+            </select>
           </div>
-          <div class="header__top-menu">
-            <a class="header__top-link" href="#home">Blog</a>
-            <a class="header__top-link" href="#home">About Us</a>
-            <a class="header__top-link" href="home">Careers</a>
+          <div class="header__action-search">
+            <input class="sction__input" type="search" placeholder="Search Products, categories ..." />
           </div>
         </div>
-        <!-- header  nav  -->
-        <div class="header__nav">
-          <div class="header__logo">
-            <img src="./imgs/brand-logo.svg" alt="Freshnesecom brand logo" />
+        <div class="header__action-user">
+          <a class="header__user" href="#home">
+            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <path d="M3 21.9999L3.79 19.1199C6.4 9.6199 17.6 9.6199 20.21 19.1199L21 21.9999" stroke="#151515"
+                stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" />
+              <path
+                d="M12 11.98C14.7614 11.98 17 9.74141 17 6.97998C17 4.21856 14.7614 1.97998 12 1.97998C9.23858 1.97998 7 4.21856 7 6.97998C7 9.74141 9.23858 11.98 12 11.98Z"
+                stroke="#151515" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="bevel" />
+            </svg>
+          </a>
+          <a class="header__user" href="#home">
+            <svg width="24" height="22" viewBox="0 0 24 22" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <path
+                d="M17.8896 19.8499H6.10955C5.79187 19.8501 5.48326 19.7439 5.23309 19.5481C4.98291 19.3523 4.80562 19.0783 4.72955 18.7699L2.07955 8.15986C2.05369 8.05657 2.05174 7.94874 2.07383 7.84458C2.09593 7.74042 2.1415 7.64267 2.20707 7.55878C2.27264 7.47489 2.35649 7.40706 2.45223 7.36046C2.54797 7.31386 2.65307 7.28971 2.75955 7.28986H21.2396C21.346 7.28971 21.4511 7.31386 21.5469 7.36046C21.6426 7.40706 21.7265 7.47489 21.792 7.55878C21.8576 7.64267 21.9032 7.74042 21.9253 7.84458C21.9474 7.94874 21.9454 8.05657 21.9196 8.15986L19.2696 18.7699C19.1935 19.0783 19.0162 19.3523 18.766 19.5481C18.5158 19.7439 18.2072 19.8501 17.8896 19.8499V19.8499Z"
+                stroke="#151515" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" />
+              <path d="M9.79941 2.14993L6.89941 7.28993" stroke="#151515" stroke-width="2.5" stroke-linecap="round"
+                stroke-linejoin="round" />
+              <path d="M13.8799 2.14993L16.7899 7.28993" stroke="#151515" stroke-width="2.5" stroke-linecap="round"
+                stroke-linejoin="round" />
+            </svg>
+          </a>
+        </div>
+      </div>
+    </div>
+  </header>
+  <!-- header part finished -->
+
+  <!-- main part started  -->
+  <main>
+    <!-- bar section  -->
+    <section class="bar">
+      <div class="container">
+        <ul class="bar__menu">
+          <li class="bar__item">Bakery</li>
+          <li class="bar__item">Fruit and vegetables</li>
+          <li class="bar__item">Meat and fish</li>
+          <li class="bar__item">Drinks</li>
+          <li class="bar__item">Kitchen</li>
+          <li class="bar__item">Special nutrition</li>
+          <li class="bar__item">Baby</li>
+          <li class="bar__item">Pharmacy</li>
+        </ul>
+      </div>
+    </section>
+    <!-- menu section  -->
+    <section class="menu">
+      <div class="container">
+        <!-- all layout wrapper -->
+        <div class="menu__block">
+          <!-- website left side for  category   -->
+          <div class="menu__categori card-1">
+            <span class="menu__categori-title">Category menu</span>
+            <a href="#home" class="menu__link">Bakery</a><a href="#home" class="menu__link">Fruit and vegetables</a><a
+              href="#home" class="menu__link">Meat and fish</a><a href="#home" class="menu__link">Drinks</a><a
+              href="#home" class="menu__link">Kitchen</a>
+            <button class="menu__action">More categories</button>
           </div>
-          <div class="header__actions">
-            <div class="header__action-option">
-              <label for="category">All categories</label>
-              <select class="options" id="category">
-                <option value="bakery"></option>
-                <option value="fruit">Fruit and vegetables</option>
-                <option value="meet">Meat and fish</option>
-                <option value="drinks">Drinks</option>
-              </select>
-            </div>
-            <div class="header__action-search">
-              <input
-                class="sction__input"
-                type="search"
-                placeholder="Search Products, categories ..."
-              />
-            </div>
+          <div class="menu__categori card-2">
+            <span class="menu__card-title">Banner subfocus</span>
+            <span class="menu__card-subtitle">Space for heading</span>
+            <button class="menu__card-action">Read recepies</button>
           </div>
-          <div class="header__action-user">
-            <a class="header__user" href="#home">
-              <svg
-                width="24"
-                height="24"
-                viewBox="0 0 24 24"
-                fill="none"
-                xmlns="http://www.w3.org/2000/svg"
-              >
-                <path
-                  d="M3 21.9999L3.79 19.1199C6.4 9.6199 17.6 9.6199 20.21 19.1199L21 21.9999"
-                  stroke="#151515"
-                  stroke-width="2.5"
-                  stroke-linecap="round"
-                  stroke-linejoin="round"
-                />
-                <path
-                  d="M12 11.98C14.7614 11.98 17 9.74141 17 6.97998C17 4.21856 14.7614 1.97998 12 1.97998C9.23858 1.97998 7 4.21856 7 6.97998C7 9.74141 9.23858 11.98 12 11.98Z"
-                  stroke="#151515"
-                  stroke-width="2.5"
-                  stroke-linecap="round"
-                  stroke-linejoin="bevel"
-                />
-              </svg>
-            </a>
-            <a class="header__user" href="#home">
-              <svg
-                width="24"
-                height="22"
-                viewBox="0 0 24 22"
-                fill="none"
-                xmlns="http://www.w3.org/2000/svg"
-              >
-                <path
-                  d="M17.8896 19.8499H6.10955C5.79187 19.8501 5.48326 19.7439 5.23309 19.5481C4.98291 19.3523 4.80562 19.0783 4.72955 18.7699L2.07955 8.15986C2.05369 8.05657 2.05174 7.94874 2.07383 7.84458C2.09593 7.74042 2.1415 7.64267 2.20707 7.55878C2.27264 7.47489 2.35649 7.40706 2.45223 7.36046C2.54797 7.31386 2.65307 7.28971 2.75955 7.28986H21.2396C21.346 7.28971 21.4511 7.31386 21.5469 7.36046C21.6426 7.40706 21.7265 7.47489 21.792 7.55878C21.8576 7.64267 21.9032 7.74042 21.9253 7.84458C21.9474 7.94874 21.9454 8.05657 21.9196 8.15986L19.2696 18.7699C19.1935 19.0783 19.0162 19.3523 18.766 19.5481C18.5158 19.7439 18.2072 19.8501 17.8896 19.8499V19.8499Z"
-                  stroke="#151515"
-                  stroke-width="2.5"
-                  stroke-linecap="round"
-                  stroke-linejoin="round"
-                />
-                <path
-                  d="M9.79941 2.14993L6.89941 7.28993"
-                  stroke="#151515"
-                  stroke-width="2.5"
-                  stroke-linecap="round"
-                  stroke-linejoin="round"
-                />
-                <path
-                  d="M13.8799 2.14993L16.7899 7.28993"
-                  stroke="#151515"
-                  stroke-width="2.5"
-                  stroke-linecap="round"
-                  stroke-linejoin="round"
-                />
-              </svg>
-            </a>
+          <div class="menu__categori card-2">
+            <span class="menu__card-title">Banner subfocus</span>
+            <span class="menu__card-subtitle">Space for heading</span>
+            <button class="menu__card-action">Read recepies</button>
           </div>
         </div>
       </div>
-    </header>
-    <!-- header part finished -->
+    </section>
+    <!-- best selling product category  -->
+    <section class="selling">
+      <div class="container">
+        <div class="selling__block">
+          <div class="card-0 menu__categori card-1">
+            <span class="menu__categori-title">Category menu</span>
+            <a href="#home" class="menu__link">Bakery</a><a href="#home" class="menu__link">Fruit and vegetables</a><a
+              href="#home" class="menu__link">Meat and fish</a><a href="#home" class="menu__link">Drinks</a><a
+              href="#home" class="menu__link">Kitchen</a>
+            <button class="menu__action">More categories</button>
+          </div>
+          <div class="selling__card">
+            <img class="card-img" src="./imgs/bottom__arrow.svg" alt="Product item img" />
+            <span class="card__title">Product Title</span>
+            <p class="card__description">
+              Space for a small product description
+            </p>
+            <div class="card__actions-sel">
+              <span class="cost">1.48 USD</span>
+              <button class="buy-btn">BUy now</button>
+            </div>
+          </div>
+          <div class="selling__card">
+            <img class="card-img" src="./imgs/bottom__arrow.svg" alt="Product item img" />
+            <span class="card__title">Product Title</span>
+            <p class="card__description">
+              Space for a small product description
+            </p>
+            <div class="card__actions-sel">
+              <span class="cost">1.48 USD</span>
+              <button class="buy-btn">BUy now</button>
+            </div>
+          </div>
+          <div class="selling__card">
+            <img class="card-img" src="./imgs/bottom__arrow.svg" alt="Product item img" />
+            <span class="card__title">Product Title</span>
+            <p class="card__description">
+              Space for a small product description
+            </p>
+            <div class="card__actions-sel">
+              <span class="cost">1.48 USD</span>
+              <button class="buy-btn">BUy now</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
 
-    <!-- main part started  -->
-    <main>
-      <!-- bar section  -->
-      <section class="bar">
-        <div class="container">
-          <ul class="bar__menu">
-            <li class="bar__item">Bakery</li>
-            <li class="bar__item">Fruit and vegetables</li>
-            <li class="bar__item">Meat and fish</li>
-            <li class="bar__item">Drinks</li>
-            <li class="bar__item">Kitchen</li>
-            <li class="bar__item">Special nutrition</li>
-            <li class="bar__item">Baby</li>
-            <li class="bar__item">Pharmacy</li>
+    <!-- best from fermers section  -->
+    <section class="fermers">
+      <div class="container">
+        <!-- all content wrapper  -->
+        <div class="fermers__block">
+          <!-- left aside   -->
+          <div class="fermers__card card-1">
+            <span class="menu__categori-title">Category menu</span>
+            <a href="#home" class="menu__link">Bakery</a><a href="#home" class="menu__link">Fruit and vegetables</a><a
+              href="#home" class="menu__link">Meat and fish</a><a href="#home" class="menu__link">Drinks</a><a
+              href="#home" class="menu__link">Kitchen</a>
+            <button class="menu__action">More categories</button>
+          </div>
+          <!-- product wrapper -->
+          <div class="fermers__card-item">
+            <img class="card-img" src="./imgs/bottom__arrow.svg" alt="Product item img" />
+            <span class="card__title">Product Title</span>
+            <p class="card__description">
+              Space for a small product description
+            </p>
+            <div class="card__actions-sel">
+              <span class="cost">1.48 USD</span>
+              <button class="buy-btn">BUy now</button>
+            </div>
+          </div>
+          <div class="fermers__card-item">
+            <img class="card-img" src="./imgs/bottom__arrow.svg" alt="Product item img" />
+            <span class="card__title">Product Title</span>
+            <p class="card__description">
+              Space for a small product description
+            </p>
+            <div class="card__actions-sel">
+              <span class="cost">1.48 USD</span>
+              <button class="buy-btn">BUy now</button>
+            </div>
+          </div>
+          <div class="fermers__card-item">
+            <img class="card-img" src="./imgs/bottom__arrow.svg" alt="Product item img" />
+            <span class="card__title">Product Title</span>
+            <p class="card__description">
+              Space for a small product description
+            </p>
+            <div class="card__actions-sel">
+              <span class="cost">1.48 USD</span>
+              <button class="buy-btn">BUy now</button>
+            </div>
+          </div>
+        </div>
+      </div>
+      </div>
+    </section>
+
+    <!-- our system says sections  -->
+    <section class="says">
+      <div class="container">
+        <div class="says__block">
+          <div class="says__top">
+            <span class="says__title">Our customers says</span>
+            <button class="says__action">Button</button>
+          </div>
+          <div class="says__items">
+            <div class="says__item">
+              <p class="says__item-description">
+                “ This is an super space for your customers qoute. Don’t worry
+                it works smooth as pie. You will get all what you need by
+                writiing a text here “
+              </p>
+              <span class="says__item-name">Name and Surname</span>
+              <img class="says__item-img" src="./imgs/says-user.png" alt="Our customers profili picture" />
+            </div>
+            <div class="says__item">
+              <p class="says__item-description">
+                “ This is an super space for your customers qoute. Don’t worry
+                it works smooth as pie. You will get all what you need by
+                writiing a text here “
+              </p>
+              <span class="says__item-name">Name and Surname</span>
+              <img class="says__item-img" src="./imgs/says-user.png" alt="Our customers profili picture" />
+            </div>
+            <div class="says__item">
+              <p class="says__item-description">
+                “ This is an super space for your customers qoute. Don’t worry
+                it works smooth as pie. You will get all what you need by
+                writiing a text here “
+              </p>
+              <span class="says__item-name">Name and Surname</span>
+              <img class="says__item-img" src="./imgs/says-user.png" alt="Our customers profili picture" />
+            </div>
+            <div class="says__item">
+              <p class="says__item-description">
+                “ This is an super space for your customers qoute. Don’t worry
+                it works smooth as pie. You will get all what you need by
+                writiing a text here “
+              </p>
+              <span class="says__item-name">Name and Surname</span>
+              <img class="says__item-img" src="./imgs/says-user.png" alt="Our customers profili picture" />
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- sectoion handline  -->
+    <section class="headline">
+      <div class="container">
+        <div class="headline__block">
+          <div class="headline__top">
+            <span class="headline__title">Our customers says</span>
+            <button class="headline__action">Button</button>
+          </div>
+          <div class="headline__items">
+            <div class="fermers__card-item">
+              <img class="card-img" src="./imgs/bottom__arrow.svg" alt="Product item img" />
+              <span class="card__title">Product Title</span>
+              <p class="card__description">
+                Space for a small product description
+              </p>
+              <div class="card__actions-sel">
+                <span class="cost">1.48 USD</span>
+                <button class="buy-btn">BUy now</button>
+              </div>
+            </div>
+            <div class="fermers__card-item">
+              <img class="card-img" src="./imgs/bottom__arrow.svg" alt="Product item img" />
+              <span class="card__title">Product Title</span>
+              <p class="card__description">
+                Space for a small product description
+              </p>
+              <div class="card__actions-sel">
+                <span class="cost">1.48 USD</span>
+                <button class="buy-btn">BUy now</button>
+              </div>
+            </div>
+            <div class="fermers__card-item">
+              <img class="card-img" src="./imgs/bottom__arrow.svg" alt="Product item img" />
+              <span class="card__title">Product Title</span>
+              <p class="card__description">
+                Space for a small product description
+              </p>
+              <div class="card__actions-sel">
+                <span class="cost">1.48 USD</span>
+                <button class="buy-btn">BUy now</button>
+              </div>
+            </div>
+            <div class="fermers__card-item">
+              <img class="card-img" src="./imgs/bottom__arrow.svg" alt="Product item img" />
+              <span class="card__title">Product Title</span>
+              <p class="card__description">
+                Space for a small product description
+              </p>
+              <div class="card__actions-sel">
+                <span class="cost">1.48 USD</span>
+                <button class="buy-btn">BUy now</button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Read or blog post section  -->
+    <section class="blog">
+      <div class="container">
+        <div class="blog__block">
+          <div class="blog__top">
+            <span class="blog__title">Our customers says</span>
+            <button class="blog__action">Button</button>
+          </div>
+          <div class="blog__items">
+            <div class="blog__item-content">
+              <span class="item__content-title">Dinner tips</span>
+              <p class="item__content-description">
+                Our chef tips for a great and tasty dinner ready in 20 minutes
+              </p>
+              <div class="item__content-user">
+                <img class="item__content-img" src="./imgs/says-user.png" alt="////" />
+                <span class="item__content-name">Author</span>
+                <span class="item__content-date">17. 6. 2020</span>
+              </div>
+            </div>
+            <div class="blog__item-vegetables">
+              <img class="veget__img" src="./imgs/vege.png" alt="alt" />
+              <span class="veget"> Vegetable </span>
+              <p class="veget-dec">
+                Which vegetable your family will love and want’s eat each day
+              </p>
+              <div class="vegetable-user">
+                <span class="item__content-name vg">Author</span>
+                <span class="item__content-date vg">17. 6. 2020</span>
+              </div>
+            </div>
+            <div class="blog__food">
+              <div class="blog__food-item">
+                <div class="food__content">
+                  <p class="food__content-title">
+                    Salat is kinda good start to your morning routines
+                  </p>
+                  <div class="vegetable-user">
+                    <span class="item__content-name vg">Author</span>
+                    <span class="item__content-date vg">17. 6. 2020</span>
+                  </div>
+                </div>
+                <img src="./imgs/food.png" alt="" />
+              </div>
+              <div class="blog__food-item">
+                <div class="food__content">
+                  <p class="food__content-title">
+                    Salat is kinda good start to your morning routines
+                  </p>
+                  <div class="vegetable-user">
+                    <span class="item__content-name vg">Author</span>
+                    <span class="item__content-date vg">17. 6. 2020</span>
+                  </div>
+                </div>
+                <img src="./imgs/food.png" alt="" />
+              </div>
+              <div class="blog__food-item">
+                <div class="food__content">
+                  <p class="food__content-title">
+                    Salat is kinda good start to your morning routines
+                  </p>
+                  <div class="vegetable-user">
+                    <span class="item__content-name vg">Author</span>
+                    <span class="item__content-date vg">17. 6. 2020</span>
+                  </div>
+                </div>
+                <img src="./imgs/food.png" alt="" />
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- footer  part -->
+  <footer>
+    <div class="container">
+      <div class="footer__block">
+        <div class="footer__links">
+          <ul class="footer__item">
+            <li class="footer__link-item">Get in touch</li>
+            <li class="footer__lini-item"><a href="#home">About Us</a></li>
+            <li class="footer__lini-item"><a href="#home">Careers</a></li>
+            <li class="footer__lini-item">
+              <a href="#home">Press Releases</a>
+            </li>
+            <li class="footer__lini-item"><a href="#home">Blog</a></li>
+          </ul>
+          <ul class="footer__item">
+            <li class="footer__link-item">Connections</li>
+            <li class="footer__lini-item"><a href="#home">Facebook</a></li>
+            <li class="footer__lini-item"><a href="#home">Twitter</a></li>
+            <li class="footer__lini-item"><a href="#home">Instagram</a></li>
+            <li class="footer__lini-item"><a href="#home">Youtube</a></li>
+            <li class="footer__lini-item"><a href="#home">LinkedIn</a></li>
+          </ul>
+          <ul class="footer__item">
+            <li class="footer__link-item">Earnings</li>
+            <li class="footer__lini-item">
+              <a href="#home">Become an Affiliate</a>
+            </li>
+            <li class="footer__lini-item">
+              <a href="#home">Advertise your product</a>
+            </li>
+            <li class="footer__lini-item">
+              <a href="#home">Sell on Market</a>
+            </li>
+          </ul>
+          <ul class="footer__item">
+            <li class="footer__link-item">Account</li>
+            <li class="footer__lini-item">
+              <a href="#home">Your account</a>
+            </li>
+            <li class="footer__lini-item">
+              <a href="#home">Returns Centre</a>
+            </li>
+            <li class="footer__lini-item">
+              <a href="#home">100 % purchase protection</a>
+            </li>
+            <li class="footer__lini-item">
+              <a href="#home">Chat with us</a>
+            </li>
+            <li class="footer__lini-item"><a href="#home">Help</a></li>
           </ul>
         </div>
-      </section>
-      <!-- menu section  -->
-      <section class="menu">
-        <div class="container">
-          <!-- all layout wrapper -->
-          <div class="menu__block">
-            <!-- website left side for  category   -->
-            <div class="menu__categori card-1">
-              <span class="menu__categori-title">Category menu</span>
-              <a href="#home" class="menu__link">Bakery</a
-              ><a href="#home" class="menu__link">Fruit and vegetables</a
-              ><a href="#home" class="menu__link">Meat and fish</a
-              ><a href="#home" class="menu__link">Drinks</a
-              ><a href="#home" class="menu__link">Kitchen</a>
-              <button class="menu__action">More categories</button>
-            </div>
-            <div class="menu__categori card-2">
-              <span class="menu__card-title">Banner subfocus</span>
-              <span class="menu__card-subtitle">Space for heading</span>
-              <button class="menu__card-action">Read recepies</button>
-            </div>
-            <div class="menu__categori card-2">
-              <span class="menu__card-title">Banner subfocus</span>
-              <span class="menu__card-subtitle">Space for heading</span>
-              <button class="menu__card-action">Read recepies</button>
-            </div>
-          </div>
+        <div class="footer__tag">
+          <span class="footer__tag-title"> Product tags </span>
+          <ul class="footer__items">
+            <li class="tag__item"><a href="#home">Beans</a></li>
+            <li class="tag__item"><a href="#home">Carrots</a></li>
+            <li class="tag__item"><a href="#home">Apples</a></li>
+            <li class="tag__item"><a href="#home">Garlic</a></li>
+            <li class="tag__item"><a href="#home">Mushrooms</a></li>
+            <li class="tag__item"><a href="#home">Tomatoes</a></li>
+            <li class="tag__item"><a href="#home">Chilli peppers</a></li>
+            <li class="tag__item"><a href="#home">Broccoli</a></li>
+            <li class="tag__item"><a href="#home">Watermelons</a></li>
+            <li class="tag__item"><a href="#home">Oranges</a></li>
+            <li class="tag__item"><a href="#home">Bananas</a></li>
+            <li class="tag__item"><a href="#home">Grapes</a></li>
+            <li class="tag__item"><a href="#home">Cherries</a></li>
+            <li class="tag__item"><a href="#home">Meat</a></li>
+            <li class="tag__item"><a href="#home">Seo tag</a></li>
+            <li class="tag__item"><a href="#home">Fish</a></li>
+            <li class="tag__item"><a href="#home">Seo tag</a></li>
+            <li class="tag__item"><a href="#home">Fresh food</a></li>
+            <li class="tag__item"><a href="#home">Lemons</a></li>
+          </ul>
         </div>
-      </section>
-      <!-- best selling product category  -->
-      <section class="selling">
-        <div class="container">
-          <div class="selling__block">
-            <div class="card-0 menu__categori card-1">
-              <span class="menu__categori-title">Category menu</span>
-              <a href="#home" class="menu__link">Bakery</a
-              ><a href="#home" class="menu__link">Fruit and vegetables</a
-              ><a href="#home" class="menu__link">Meat and fish</a
-              ><a href="#home" class="menu__link">Drinks</a
-              ><a href="#home" class="menu__link">Kitchen</a>
-              <button class="menu__action">More categories</button>
-            </div>
-            <div class="selling__card">
-              <img
-                class="card-img"
-                src="./imgs/bottom__arrow.svg"
-                alt="Product item img"
-              />
-              <span class="card__title">Product Title</span>
-              <p class="card__description">
-                Space for a small product description
-              </p>
-              <div class="card__actions-sel">
-                <span class="cost">1.48 USD</span>
-                <button class="buy-btn">BUy now</button>
-              </div>
-            </div>
-            <div class="selling__card">
-              <img
-                class="card-img"
-                src="./imgs/bottom__arrow.svg"
-                alt="Product item img"
-              />
-              <span class="card__title">Product Title</span>
-              <p class="card__description">
-                Space for a small product description
-              </p>
-              <div class="card__actions-sel">
-                <span class="cost">1.48 USD</span>
-                <button class="buy-btn">BUy now</button>
-              </div>
-            </div>
-            <div class="selling__card">
-              <img
-                class="card-img"
-                src="./imgs/bottom__arrow.svg"
-                alt="Product item img"
-              />
-              <span class="card__title">Product Title</span>
-              <p class="card__description">
-                Space for a small product description
-              </p>
-              <div class="card__actions-sel">
-                <span class="cost">1.48 USD</span>
-                <button class="buy-btn">BUy now</button>
-              </div>
-            </div>
-          </div>
-        </div>
-      </section>
-
-      <!-- best from fermers section  -->
-      <section class="fermers">
-        <div class="container">
-          <!-- all content wrapper  -->
-          <div class="fermers__block">
-            <!-- left aside   -->
-            <div class="fermers__card card-1">
-              <span class="menu__categori-title">Category menu</span>
-              <a href="#home" class="menu__link">Bakery</a
-              ><a href="#home" class="menu__link">Fruit and vegetables</a
-              ><a href="#home" class="menu__link">Meat and fish</a
-              ><a href="#home" class="menu__link">Drinks</a
-              ><a href="#home" class="menu__link">Kitchen</a>
-              <button class="menu__action">More categories</button>
-            </div>
-            <!-- product wrapper -->
-              <div class="fermers__card-item">
-                <img
-                  class="card-img"
-                  src="./imgs/bottom__arrow.svg"
-                  alt="Product item img"
-                />
-                <span class="card__title">Product Title</span>
-                <p class="card__description">
-                  Space for a small product description
-                </p>
-                <div class="card__actions-sel">
-                  <span class="cost">1.48 USD</span>
-                  <button class="buy-btn">BUy now</button>
-                </div>
-              </div>
-              <div class="fermers__card-item">
-                <img
-                  class="card-img"
-                  src="./imgs/bottom__arrow.svg"
-                  alt="Product item img"
-                />
-                <span class="card__title">Product Title</span>
-                <p class="card__description">
-                  Space for a small product description
-                </p>
-                <div class="card__actions-sel">
-                  <span class="cost">1.48 USD</span>
-                  <button class="buy-btn">BUy now</button>
-                </div>
-              </div>
-              <div class="fermers__card-item">
-                <img
-                  class="card-img"
-                  src="./imgs/bottom__arrow.svg"
-                  alt="Product item img"
-                />
-                <span class="card__title">Product Title</span>
-                <p class="card__description">
-                  Space for a small product description
-                </p>
-                <div class="card__actions-sel">
-                  <span class="cost">1.48 USD</span>
-                  <button class="buy-btn">BUy now</button>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </section>
-
-      <!-- our system says sections  -->
-      <section class="says">
-        <div class="container">
-          <div class="says__block">
-            <div class="says__top">
-              <span class="says__title">Our customers says</span>
-              <button class="says__action">Button</button>
-            </div>
-            <div class="says__items">
-              <div class="says__item">
-                <p class="says__item-description">
-                  “ This is an super space for your customers qoute. Don’t worry
-                  it works smooth as pie. You will get all what you need by
-                  writiing a text here “
-                </p>
-                <span class="says__item-name">Name and Surname</span>
-                <img
-                  class="says__item-img"
-                  src="./imgs/says-user.png"
-                  alt="Our customers profili picture"
-                />
-              </div>
-              <div class="says__item">
-                <p class="says__item-description">
-                  “ This is an super space for your customers qoute. Don’t worry
-                  it works smooth as pie. You will get all what you need by
-                  writiing a text here “
-                </p>
-                <span class="says__item-name">Name and Surname</span>
-                <img
-                  class="says__item-img"
-                  src="./imgs/says-user.png"
-                  alt="Our customers profili picture"
-                />
-              </div>
-              <div class="says__item">
-                <p class="says__item-description">
-                  “ This is an super space for your customers qoute. Don’t worry
-                  it works smooth as pie. You will get all what you need by
-                  writiing a text here “
-                </p>
-                <span class="says__item-name">Name and Surname</span>
-                <img
-                  class="says__item-img"
-                  src="./imgs/says-user.png"
-                  alt="Our customers profili picture"
-                />
-              </div>
-              <div class="says__item">
-                <p class="says__item-description">
-                  “ This is an super space for your customers qoute. Don’t worry
-                  it works smooth as pie. You will get all what you need by
-                  writiing a text here “
-                </p>
-                <span class="says__item-name">Name and Surname</span>
-                <img
-                  class="says__item-img"
-                  src="./imgs/says-user.png"
-                  alt="Our customers profili picture"
-                />
-              </div>
-            </div>
-          </div>
-        </div>
-      </section>
-
-      <!-- sectoion handline  -->
-      <section class="headline">
-        <div class="container">
-          <div class="headline__block">
-            <div class="headline__top">
-              <span class="headline__title">Our customers says</span>
-              <button class="headline__action">Button</button>
-            </div>
-            <div class="headline__items">
-              <div class="fermers__card-item">
-                <img
-                  class="card-img"
-                  src="./imgs/bottom__arrow.svg"
-                  alt="Product item img"
-                />
-                <span class="card__title">Product Title</span>
-                <p class="card__description">
-                  Space for a small product description
-                </p>
-                <div class="card__actions-sel">
-                  <span class="cost">1.48 USD</span>
-                  <button class="buy-btn">BUy now</button>
-                </div>
-              </div>
-              <div class="fermers__card-item">
-                <img
-                  class="card-img"
-                  src="./imgs/bottom__arrow.svg"
-                  alt="Product item img"
-                />
-                <span class="card__title">Product Title</span>
-                <p class="card__description">
-                  Space for a small product description
-                </p>
-                <div class="card__actions-sel">
-                  <span class="cost">1.48 USD</span>
-                  <button class="buy-btn">BUy now</button>
-                </div>
-              </div>
-              <div class="fermers__card-item">
-                <img
-                  class="card-img"
-                  src="./imgs/bottom__arrow.svg"
-                  alt="Product item img"
-                />
-                <span class="card__title">Product Title</span>
-                <p class="card__description">
-                  Space for a small product description
-                </p>
-                <div class="card__actions-sel">
-                  <span class="cost">1.48 USD</span>
-                  <button class="buy-btn">BUy now</button>
-                </div>
-              </div>
-              <div class="fermers__card-item">
-                <img
-                  class="card-img"
-                  src="./imgs/bottom__arrow.svg"
-                  alt="Product item img"
-                />
-                <span class="card__title">Product Title</span>
-                <p class="card__description">
-                  Space for a small product description
-                </p>
-                <div class="card__actions-sel">
-                  <span class="cost">1.48 USD</span>
-                  <button class="buy-btn">BUy now</button>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </section>
-      <!-- Read or blog post section  -->
-      <section class="blog">
-        <div class="container">
-          <div class="blog__block">
-            <div class="blog__top">
-              <span class="blog__title">Our customers says</span>
-              <button class="blog__action">Button</button>
-            </div>
-            <div class="blog__items">
-              <div class="blog__item-content">
-                <span class="item__content-title">Dinner tips</span>
-                <p class="item__content-description">
-                  Our chef tips for a great and tasty dinner ready in 20 minutes
-                </p>
-                <div class="item__content-user">
-                  <img
-                    class="item__content-img"
-                    src="./imgs/says-user.png"
-                    alt="////"
-                  />
-                  <span class="item__content-name">Author</span>
-                  <span class="item__content-date">17. 6. 2020</span>
-                </div>
-              </div>
-              <div class="blog__item-vegetables">
-                <img class="veget__img" src="./imgs/vege.png" alt="alt" />
-                <span class="veget"> Vegetable </span>
-                <p class="veget-dec">
-                  Which vegetable your family will love and want’s eat each day
-                </p>
-                <div class="vegetable-user">
-                  <span class="item__content-name vg">Author</span>
-                  <span class="item__content-date vg">17. 6. 2020</span>
-                </div>
-              </div>
-              <div class="blog__food">
-                <div class="blog__food-item">
-                  <div class="food__content">
-                    <p class="food__content-title">
-                      Salat is kinda good start to your morning routines
-                    </p>
-                    <div class="vegetable-user">
-                      <span class="item__content-name vg">Author</span>
-                      <span class="item__content-date vg">17. 6. 2020</span>
-                    </div>
-                  </div>
-                  <img src="./imgs/food.png" alt="" />
-                </div>
-                <div class="blog__food-item">
-                  <div class="food__content">
-                    <p class="food__content-title">
-                      Salat is kinda good start to your morning routines
-                    </p>
-                    <div class="vegetable-user">
-                      <span class="item__content-name vg">Author</span>
-                      <span class="item__content-date vg">17. 6. 2020</span>
-                    </div>
-                  </div>
-                  <img src="./imgs/food.png" alt="" />
-                </div>
-                <div class="blog__food-item">
-                  <div class="food__content">
-                    <p class="food__content-title">
-                      Salat is kinda good start to your morning routines
-                    </p>
-                    <div class="vegetable-user">
-                      <span class="item__content-name vg">Author</span>
-                      <span class="item__content-date vg">17. 6. 2020</span>
-                    </div>
-                  </div>
-                  <img src="./imgs/food.png" alt="" />
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </section>
-    </main>
-
-    <!-- footer  part -->
-    <footer>
-      <div class="container">
-        <div class="footer__block">
-          <div class="footer__links">
-            <ul class="footer__item">
-              <li class="footer__link-item">Get in touch</li>
-              <li class="footer__lini-item"><a href="#home">About Us</a></li>
-              <li class="footer__lini-item"><a href="#home">Careers</a></li>
-              <li class="footer__lini-item">
-                <a href="#home">Press Releases</a>
-              </li>
-              <li class="footer__lini-item"><a href="#home">Blog</a></li>
-            </ul>
-            <ul class="footer__item">
-              <li class="footer__link-item">Connections</li>
-              <li class="footer__lini-item"><a href="#home">Facebook</a></li>
-              <li class="footer__lini-item"><a href="#home">Twitter</a></li>
-              <li class="footer__lini-item"><a href="#home">Instagram</a></li>
-              <li class="footer__lini-item"><a href="#home">Youtube</a></li>
-              <li class="footer__lini-item"><a href="#home">LinkedIn</a></li>
-            </ul>
-            <ul class="footer__item">
-              <li class="footer__link-item">Earnings</li>
-              <li class="footer__lini-item">
-                <a href="#home">Become an Affiliate</a>
-              </li>
-              <li class="footer__lini-item">
-                <a href="#home">Advertise your product</a>
-              </li>
-              <li class="footer__lini-item">
-                <a href="#home">Sell on Market</a>
-              </li>
-            </ul>
-            <ul class="footer__item">
-              <li class="footer__link-item">Account</li>
-              <li class="footer__lini-item">
-                <a href="#home">Your account</a>
-              </li>
-              <li class="footer__lini-item">
-                <a href="#home">Returns Centre</a>
-              </li>
-              <li class="footer__lini-item">
-                <a href="#home">100 % purchase protection</a>
-              </li>
-              <li class="footer__lini-item">
-                <a href="#home">Chat with us</a>
-              </li>
-              <li class="footer__lini-item"><a href="#home">Help</a></li>
-            </ul>
-          </div>
-          <div class="footer__tag">
-            <span class="footer__tag-title"> Product tags </span>
-            <ul class="footer__items">
-              <li class="tag__item"><a href="#home">Beans</a></li>
-              <li class="tag__item"><a href="#home">Carrots</a></li>
-              <li class="tag__item"><a href="#home">Apples</a></li>
-              <li class="tag__item"><a href="#home">Garlic</a></li>
-              <li class="tag__item"><a href="#home">Mushrooms</a></li>
-              <li class="tag__item"><a href="#home">Tomatoes</a></li>
-              <li class="tag__item"><a href="#home">Chilli peppers</a></li>
-              <li class="tag__item"><a href="#home">Broccoli</a></li>
-              <li class="tag__item"><a href="#home">Watermelons</a></li>
-              <li class="tag__item"><a href="#home">Oranges</a></li>
-              <li class="tag__item"><a href="#home">Bananas</a></li>
-              <li class="tag__item"><a href="#home">Grapes</a></li>
-              <li class="tag__item"><a href="#home">Cherries</a></li>
-              <li class="tag__item"><a href="#home">Meat</a></li>
-              <li class="tag__item"><a href="#home">Seo tag</a></li>
-              <li class="tag__item"><a href="#home">Fish</a></li>
-              <li class="tag__item"><a href="#home">Seo tag</a></li>
-              <li class="tag__item"><a href="#home">Fresh food</a></li>
-              <li class="tag__item"><a href="#home">Lemons</a></li>
-            </ul>
-          </div>
-          <p class="footer__copyright">Copyright © 2020 petrbilek.com</p>
-        </div>
+        <p class="footer__copyright">Copyright © 2020 petrbilek.com</p>
       </div>
-    </footer>
-  </body>
+    </div>
+  </footer>
+</body>
+
 </html>

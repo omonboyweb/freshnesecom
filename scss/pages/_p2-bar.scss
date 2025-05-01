@@ -1,0 +1,32 @@
+.bar__items {
+    display: flex;
+    justify-content: space-between;
+    gap: 10px;
+}
+
+.bar__item-link a {
+    font-weight: 500;
+    font-size: 15px;
+    color: var(--c1-a) !important;
+    padding-right: 15px;
+    position: relative;
+}
+
+.bar__item-link a::after {
+    position: absolute;
+    content: "";
+    background-image: url(../../imgs/bottom__arrow.svg);
+    background-repeat: no-repeat;
+    background-position: 100%;
+    background-size: cover;
+    width: 12px;
+    height: 12px;
+    right: 0;
+    top: calc(50% - 5px);
+}
+
+@media (max-width: 900px) {
+    .bar {
+        display: none;
+    }
+}

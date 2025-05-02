@@ -58,3 +58,17 @@
     background: var(--c2-a);
     padding: 7px 16px;
 }
+
+@mixin category-name {
+    font-family: var(--second-family);
+    font-weight: 400;
+    font-size: 14px;
+    color: var(--c1-a);
+}
+
+@mixin category-cheks {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    margin-bottom: 48px;
+}

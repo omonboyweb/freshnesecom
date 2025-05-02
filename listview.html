@@ -120,14 +120,303 @@
                         <div class="product__layout">
                             <span class="product__layout-item">Grid view</span>
                             <span class="product__layout-item">List view</span>
-                            <span class="product__layout-item">Products</span>
+                            <span class="product__layout-item">
+                                <span class="products__count">117</span> Products<span>
                         </div>
                     </div>
                     <div class="product__filter">
-                        <div class="product__filter-text">
+                        <!-- two filter text   -->
+                        <div class="product__filter-text border-style">
                             <input type="radio" id="radio" name="fav_language" value="HTML">
                               <label for="text">Filter text </label><br>
-                            
+                            <input type="radio" id="radio" name="fav_language" value="HTML">
+                              <label for="text">Filter text </label><br>
+                        </div>
+                        <!-- one filter  -->
+                        <div class="filter__nbm border-style">
+                            <input type="radio" id="radio" value="HTML">
+                              <label for="text">Filter text </label><br>
+                            <span class="filter__nbm">Nbm</span>
+                        </div>
+                        <div class="filter__nbm border-style">
+                            <input type="radio" id="radio" value="HTML">
+                              <label for="text">Filter text </label>
+                            <span class="filter__nbm">Nbm</span>
+                        </div>
+                        <div class="filter__select border-style">
+                            <input type="checkbox" id="radio" value="HTML">
+                              <label for="text">Filter text <span class="chebox-countr">12</span></label><br>
+                            <span class="stic__man-line"></span>
+                            <span class="filter__select-text">
+                                Select
+                            </span>
+                        </div>
+                    </div>
+
+                    <div class="product__cards">
+                        <div class="product__category">
+                            <ul class="category__names">
+                                <li class="category__name">Categories</li>
+                                <li class="category__name">
+                                    Category name
+                                    <span class="category__name-count">320</span>
+                                </li>
+                                <li class="category__name">
+                                    Category name
+                                    <span class="category__name-count">112</span>
+                                </li>
+                                <li class="category__name">
+                                    Category name
+                                    <span class="category__name-count">32</span>
+                                </li>
+                                <li class="category__name">
+                                    Category name
+                                    <span class="category__name-count">48</span>
+                                </li>
+                            </ul>
+                            <ul class="category__checkbox">
+                                <li class="category__name">Categories</li>
+                                <li class="category__name-check">
+                                    <input type="checkbox" id="radio" value="HTML">
+                                      <label for="text">Filtre by brand item </label>
+                                </li>
+                                <li class="category__name-check">
+                                    <input type="checkbox" id="radio" value="HTML" checked>
+                                      <label for="text">Filtre by brand item </label>
+                                </li>
+                                <li class="category__name-check">
+                                    <input type="checkbox" id="radio" value="HTML" checked>
+                                      <label for="text">Filtre by brand item </label>
+                                </li>
+                                <li class="category__name-check">
+                                    <input type="checkbox" id="radio" value="HTML">
+                                      <label for="text">Filtre by brand item </label>
+                                </li>
+                                <li class="category__name-check">
+                                    <input type="checkbox" id="radio" value="HTML">
+                                      <label for="text">Filtre by brand item </label>
+                                </li>
+                            </ul>
+                            <ul class="category__checkbox">
+                                <li class="category__name">Rating</li>
+                                <li class="category__name-check">
+                                    <input type="checkbox" id="radio" value="HTML">
+                                      <label for="text"><img src="./imgs/star5.png" alt="alt "> </label>
+                                </li>
+                                <li class="category__name-check">
+                                    <input type="checkbox" id="radio" value="HTML">
+                                      <label for="text">
+                                        <img src="./imgs/star4.png" alt="alt ">
+                                    </label>
+                                </li>
+                                <li class="category__name-check">
+                                    <input type="checkbox" id="radio" value="HTML">
+                                    <label for="text">
+                                        <img src="./imgs/star3.png" alt="alt ">
+                                    </label>
+                                </li>
+                                <li class="category__name-check">
+                                    <input type="checkbox" id="radio" value="HTML">
+                                    <label for="text">
+                                        <img src="./imgs/star2.png" alt="alt ">
+                                    </label>
+                                </li>
+                                <li class="category__name-check">
+                                    <input type="checkbox" id="radio" value="HTML">
+                                    <label for="text">
+                                        <img src="./imgs/star1.png" alt="alt ">
+                                    </label>
+                                </li>
+                            </ul>
+                            <ul class="category__range category__checkbox">
+                                <li class="category__name">Price </li>
+                                <li class="category__name">
+                                    <input class="category__range-1" type="range" id="points" name="points" min="0"
+                                        max="10">
+                                </li>
+                                <li class="category__name">
+                                    <div class="j">
+                                        <span class="text-m">Min</span>
+                                        <input class="range__input" type="text" placeholder="0">
+                                    </div>
+                                    <div class="j">
+                                        <span class="text-m">Max</span>
+                                        <input class="range__input" type="text" placeholder="000">
+                                    </div>
+                                </li>
+                                <ul class="category__reset">
+                                    <button type="submit" class="btn-cat apply">Apply</button>
+                                    <button type="reset" class="btn-reset apply">Reset</button>
+                                </ul>
+                            </ul>
+                        </div>
+                        <!-- product main wrapper  -->
+                        <div class="product__main">
+                            <!-- card 1 -->
+                            <div class="card__pro">
+                                <!-- card img  -->
+                                <div class="card__img">
+                                    <img src="./imgs/blank.png" alt="card img">
+                                </div>
+                                <!-- card content name description  -->
+                                <div class="card__content">
+                                    <span class="card__content-title">
+                                        Product title
+                                    </span>
+                                    <p class="card__content-description">Space for a small product description</p>
+                                    <img class="black__star" src="./imgs/black-star.png" alt="star">
+                                    <!-- product detalis and remove grid   -->
+                                    <div class="card__content-data remove">
+                                        <span class="cart__data-text">Fresheness <span>New (Extra fresh)</span></span>
+                                        <span class="cart__data-text">Fresheness <span>Grocery Tarm Fields</span></span>
+                                        <span class="cart__data-text">Fresheness <span>Europe</span></span>
+                                        <span class="cart__data-text">Fresheness <span class="cart__data-gren">320
+                                                pcs</span></span>
+                                    </div>
+                                </div>
+                                <!-- card action parts -->
+                                <div class="card__actions">
+                                    <!-- cost  -->
+                                    <span class="cart__action-cost">
+                                        36.99 USD
+                                        <span class="cart__action-sale">48.56</span>
+                                    </span>
+                                    <!-- card detalis and remove  -->
+                                    <span class="cart__shipping remove">
+                                        Free Shipping
+                                        <span class="cart__shipping-grey">Delivery in 1 day</span>
+                                    </span>
+                                    <!-- card button flex -->
+                                    <div class="cart__action-btn">
+                                        <button class="detalis">Product Detail</button>
+                                        <button class="detalis detalis2">Add to wish list</button>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- card 2 -->
+                            <div class="card__pro">
+                                <!-- card img  -->
+                                <div class="card__img">
+                                    <img src="./imgs/blank.png" alt="card img">
+                                </div>
+                                <!-- card content name description  -->
+                                <div class="card__content">
+                                    <span class="card__content-title">
+                                        Product title
+                                    </span>
+                                    <p class="card__content-description">Space for a small product description</p>
+                                    <img class="black__star" src="./imgs/black-star.png" alt="star">
+                                    <!-- product detalis and remove grid   -->
+                                    <div class="card__content-data remove">
+                                        <span class="cart__data-text">Fresheness <span>New (Extra fresh)</span></span>
+                                        <span class="cart__data-text">Fresheness <span>Grocery Tarm Fields</span></span>
+                                        <span class="cart__data-text">Fresheness <span>Europe</span></span>
+                                        <span class="cart__data-text">Fresheness <span class="cart__data-gren">320
+                                                pcs</span></span>
+                                    </div>
+                                </div>
+                                <!-- card action parts -->
+                                <div class="card__actions">
+                                    <!-- cost  -->
+                                    <span class="cart__action-cost">
+                                        36.99 USD
+                                        <span class="cart__action-sale">48.56</span>
+                                    </span>
+                                    <!-- card detalis and remove  -->
+                                    <span class="cart__shipping remove">
+                                        Free Shipping
+                                        <span class="cart__shipping-grey">Delivery in 1 day</span>
+                                    </span>
+                                    <!-- card button flex -->
+                                    <div class="cart__action-btn">
+                                        <button class="detalis">Product Detail</button>
+                                        <button class="detalis detalis2">Add to wish list</button>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- card 3 -->
+                            <div class="card__pro">
+                                <!-- card img  -->
+                                <div class="card__img">
+                                    <img src="./imgs/blank.png" alt="card img">
+                                </div>
+                                <!-- card content name description  -->
+                                <div class="card__content">
+                                    <span class="card__content-title">
+                                        Product title
+                                    </span>
+                                    <p class="card__content-description">Space for a small product description</p>
+                                    <img class="black__star" src="./imgs/black-star.png" alt="star">
+                                    <!-- product detalis and remove grid   -->
+                                    <div class="card__content-data remove">
+                                        <span class="cart__data-text">Fresheness <span>New (Extra fresh)</span></span>
+                                        <span class="cart__data-text">Fresheness <span>Grocery Tarm Fields</span></span>
+                                        <span class="cart__data-text">Fresheness <span>Europe</span></span>
+                                        <span class="cart__data-text">Fresheness <span class="cart__data-gren">320
+                                                pcs</span></span>
+                                    </div>
+                                </div>
+                                <!-- card action parts -->
+                                <div class="card__actions">
+                                    <!-- cost  -->
+                                    <span class="cart__action-cost">
+                                        36.99 USD
+                                        <span class="cart__action-sale">48.56</span>
+                                    </span>
+                                    <!-- card detalis and remove  -->
+                                    <span class="cart__shipping remove">
+                                        Free Shipping
+                                        <span class="cart__shipping-grey">Delivery in 1 day</span>
+                                    </span>
+                                    <!-- card button flex -->
+                                    <div class="cart__action-btn">
+                                        <button class="detalis">Product Detail</button>
+                                        <button class="detalis detalis2">Add to wish list</button>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <!-- card 4 -->
+                            <div class="card__pro">
+                                <!-- card img  -->
+                                <div class="card__img">
+                                    <img src="./imgs/blank.png" alt="card img">
+                                </div>
+                                <!-- card content name description  -->
+                                <div class="card__content">
+                                    <span class="card__content-title">
+                                        Product title
+                                    </span>
+                                    <p class="card__content-description">Space for a small product description</p>
+                                    <img class="black__star" src="./imgs/black-star.png" alt="star">
+                                    <!-- product detalis and remove grid   -->
+                                    <div class="card__content-data remove">
+                                        <span class="cart__data-text">Fresheness <span>New (Extra fresh)</span></span>
+                                        <span class="cart__data-text">Fresheness <span>Grocery Tarm Fields</span></span>
+                                        <span class="cart__data-text">Fresheness <span>Europe</span></span>
+                                        <span class="cart__data-text">Fresheness <span class="cart__data-gren">320
+                                                pcs</span></span>
+                                    </div>
+                                </div>
+                                <!-- card action parts -->
+                                <div class="card__actions">
+                                    <!-- cost  -->
+                                    <span class="cart__action-cost">
+                                        36.99 USD
+                                        <span class="cart__action-sale">48.56</span>
+                                    </span>
+                                    <!-- card detalis and remove  -->
+                                    <span class="cart__shipping remove">
+                                        Free Shipping
+                                        <span class="cart__shipping-grey">Delivery in 1 day</span>
+                                    </span>
+                                    <!-- card button flex -->
+                                    <div class="cart__action-btn">
+                                        <button class="detalis">Product Detail</button>
+                                        <button class="detalis detalis2">Add to wish list</button>
+                                    </div>
+                                </div>
+                            </div>
                         </div>
                     </div>
                 </div>
